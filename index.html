@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="lib/reset.css">
+	<link rel="stylesheet" type="text/css" href="modules/bg/bg.css">
+	<link rel="stylesheet" type="text/css" href="modules/header/header.css">
+	<link rel="stylesheet" type="text/css" href="modules/home/banner/banner.css">
+	<link rel="stylesheet" type="text/css" href="modules/home/news/news.css">
+	<link rel="stylesheet" type="text/css" href="modules/home/image/img.css">
+	<link rel="stylesheet" type="text/css" href="modules/home/home.css">
+	<link rel="stylesheet" type="text/css" href="modules/foot/foot.css">
+	<link rel="stylesheet" type="text/css" href="modules/bottom/bottom.css">
+</head>
+<body>
+	<!-- 把轮廓定出来，在页面中定义header模块的位置 -->
+	<div id="header" class="header"></div>
+	<div id="app" class="app"></div>
+	<div class="foot inner module"></div>
+<div class="bottom inner module"></div>
+<script type="text/javascript" src="lib/jquery-1.12.2.js"></script>
+<script type="text/javascript" src="lib/MVC.js"></script>
+<script type="text/javascript" src="modules/bg/bg.js"></script>
+<script type="text/javascript" src="modules/header/header.js"></script>
+<script type="text/javascript" src="modules/home/banner/banner.js"></script>
+<script type="text/javascript" src="modules/home/news/news.js"></script>
+<script type="text/javascript" src="modules/home/image/img.js"></script>
+<script type="text/javascript" src="modules/home/home.js"></script>
+<script type="text/javascript" src="modules/foot/foot.js"></script>
+<script type="text/javascript" src="modules/bottom/bottom.js"></script>
+<script type="text/javascript">
+	// 启动所有控制器
+	MVC.install();
+</script>
+</body>
+</html>

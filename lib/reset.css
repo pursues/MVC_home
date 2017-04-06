@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/*定义公共类*/
+.inner {
+	width: 960px;
+	margin: 0 auto;
+}

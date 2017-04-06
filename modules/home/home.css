@@ -1,0 +1,79 @@
+.app {
+	padding-top: 30px;
+}
+.app .banner {
+	padding:30px;
+}
+.app .banner-img {
+	position:relative;
+	height:400px;
+}
+.app .banner-img li {
+	position:absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.app .banner-img li.choose {
+	display:  block;
+}
+.app . banner-img li img {
+	width:100%;
+}
+.app .banner-img li p{
+	position :absolute;
+	bottom:10px;
+	left:10px;
+	padding:10px 15px;
+	background:rgba(255,255,255,0.8);
+}
+.app .banner-btn {
+	text-align:center;
+}
+.app .banner-btn li {
+	background: #000;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 18px 4px;
+	cursor: pointer;
+}
+.app .banner-btn .item {
+	width: 6px;
+	height: 6px;
+	border: 3px solid #000;
+	overflow: hidden;
+}
+.app .banner-btn .pre,
+.app .banner-btn .next {
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 7px;
+	background-image: url(./arrows.png);
+}
+.app .banner-btn .next {
+	background-position: -25px 0;
+}
+.app .banner-btn .pre:hover {
+	background-position: 0 -25px;
+}
+.app .banner-btn .next:hover {
+	background-position: -25px -25px;
+}
+.app .banner-btn .item.choose,
+.app .banner-btn .item:hover {
+	background: #fff;
+}
+.app .banner h1 {
+	padding: 10px 20px;
+	line-height: 40px;
+	font-size: 21px;
+	text-align: center;
+	font-weight: normal;
+	font-family: 'CharisSILItalic';
+}
+/*.app .divide-line{
+	height: 4px;
+	border-top: 3px solid #000;
+	border-bottom: 1px solid #000;
+}*/
